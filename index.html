@@ -6,8 +6,8 @@
     <title>Unity WebGL Player | Ahsen's Portfolio Website</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=852 height=480 style="width: 852px; height: 480px; background: url('Build/intelTest.jpg') center / cover"></canvas>
-    <script src="Build/intelTest.loader.js"></script>
+    <canvas id="unity-canvas" width=852 height=480 style="width: 852px; height: 480px; background: url('Build/intelBuild.jpg') center / cover"></canvas>
+    <script src="Build/intelBuild.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/intelTest.data",
-        frameworkUrl: "Build/intelTest.framework.js",
-        codeUrl: "Build/intelTest.wasm",
+        dataUrl: "Build/intelBuild.data",
+        frameworkUrl: "Build/intelBuild.framework.js",
+        codeUrl: "Build/intelBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Λ H S Ξ N",
         productName: "Ahsen's Portfolio Website",
